@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: 'poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(6, 1, 26);
+}
+.left{
+    font-size: 1.5rem;
+}
+nav ul{
+    display:flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    margin: 0 2.3vh;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(9, 141, 241);
+    font-size: 0.9rem;
+}
+/*** main ***/
+ main hr{
+    border: 0;
+    background-color: rgb(9, 141, 241);
+    height: 0.9px;
+    margin: 40px 84px;
+}
+.firstsection{ 
+    display: flex;
+    justify-content: space-around;
+    margin: 17vh 0;
+}
+.firstsection > div{
+    width: 35%;
+}
+.leftsection{
+    font-size: 2.5rem;
+    align-items: center;
+}
+.blue{
+    color:rgb(9, 141, 241);
+}
+.rightsection img{
+    width: 50vh;
+    position:relative;
+}
+#element{
+    color: rgb(9, 141, 241);
+
+}
+.buttons{
+    margin-top: 16px;
+}
+.btn{
+    background-color: rgb(9, 141, 241);
+    color:white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 0.7rem;
+}
+.btn:hover{
+    color: rgb(9, 141, 241);
+    background-color:white;
+}
+/*** secondsection  ****/
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+}
+.secondsection h2{
+    font-size: 1.9rem;
+    margin-bottom: 10px;
+    color: rgb(9, 141, 241);
+}
+.about-me p {
+	font-size: 1rem;
+	margin-top: 15px;
+	line-height: 27px;
+}
+table {
+	width: 100%;
+}
+table th,
+table td {
+	font-size: 1rem;
+	text-align: left;
+	padding: 5px 0px;
+}
+/*****Skills*****/
+.heading-text{
+    color: rgb(9, 141, 241);
+    font-size: 1.5rem;
+}
+.skill {
+	margin-top: 30px;
+	font-size: 1.1rem;
+	align-items: center;
+}
+.skill span {
+	float: right;
+}
+
+.skill div {
+	width: 100%;
+	float: left;
+	margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: white;
+	border-radius: 10px;
+}
+
+.skill div span {
+	background: rgb(9, 141, 241);
+	height: 5px;
+	float: left;
+}
+/***  project/thirdsection ***/
+.thirdsection{
+    max-width: 80vh;
+    margin: auto;
+
+}
+.thirdsection h2{
+    font-size: 1.9rem;
+    margin-bottom: 10px;
+    color: rgb(9, 141, 241);
+}
+.card{
+    border:1px solid white;
+    margin-bottom: 80px;
+    padding: 10px;
+}
+.card-body h4 {
+    margin-left: 5px;
+}
+.card-text{
+    margin-left: 5px;
+}
+.text-center{
+    margin-left: 5px 10px 5px 10px;
+}
+.text-center a{
+    text-decoration: none;
+    font-size: 2rem;
+}
+.text-center a:hover{
+    color: white;
+}
+/*** forthsection/contact  ***/
+.forthsection{
+    max-width: 80vw;
+    margin: auto;
+}
+.forthsection h2{
+    font-size: 1.9rem;
+    margin-bottom: 10px;
+    color: rgb(9, 141, 241);
+}
+.forthsection p{
+    margin-bottom: 30px;
+}
+.name{
+    width: 50%;
+    height: 40px;
+    margin-bottom: 6px;
+}
+.email{
+    width: 50%;
+    height: 40px;
+    margin-bottom: 6px;
+}
+.sub{
+    width: 50%;
+    height: 40px;
+    margin-bottom: 6px;
+}
+.form-control{
+    width: 50%;
+    height: 100px;
+    margin-bottom: 6px;
+}
+.submit{
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+.submit a{
+    background-color: rgb(9, 141, 241);
+    color: white;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+.submit a:hover {
+    color: rgb(9, 141, 241);
+    background-color: white;
+}
+/*** footer   ****/
+footer{
+    background-color: rgb(6, 1, 26);
+    height: 400px;
+    width: 100%;
+}
+.footer {
+    font-size: 1.9rem;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 25px;
+}
+.container-field{
+    margin-top: 50px;
+}
+.social-icons a{
+    font-size: 2.3rem;
+    cursor: pointer;
+    margin-bottom: 40px;
+    transition: transform 0.5s;
+    color: rgb(9, 141, 241);
+}
+.social-icons a:hover{
+    color: white;
+    transform: translate(-5px);
+}
+.content p{
+    font-size: 0.9rem;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+.footer hr{
+    border: 0;
+    background-color: gray;
+    height: 0.5px;
+}
+.copyright{
+    font-size: 0.9rem;
+    padding-top: 30px;
+}
+/** mobilephones ***/
+@media (max-width:600px){
+    nav ul{
+        display:none;
+    }
+    table{
+        width:90%;
+        padding-right: 3px;
+    }
+    table th{
+        font-size: 0.8rem;
+    }
+    table td{
+        font-size: 0.7rem;
+        padding-right: 2px;
+    }
+    .thirdsection h2{
+        font-size: 1.9rem;
+        padding-left: 10px;
+    }
+    .card img{
+        width: 20%;
+    }
+    .card{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .footer{
+        font-size: 1.5rem;
+    }
+    .content p{
+        font-size: 0.8rem;
+    }
+    .copyright {
+        padding-bottom: 2px;
+        font-size: 0.5rem;
+    }
+
+}
+
+
+
+
